@@ -1,2 +1,0 @@
-# AntLib
-hello world
