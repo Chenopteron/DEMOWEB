@@ -1,9 +1,11 @@
 on:push
 jobs:
   job1:
-    steps:
-    -run:pwd
-    -run:ls
+   runs-on:ubntu-lastest
+      steps:
+     -run:pwd
+     -run:ls
   job2:
-    steps:
-    -run:node --version   
+    runs=on:windows-laster
+     steps:
+     -run:node --version   
