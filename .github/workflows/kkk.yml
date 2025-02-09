@@ -1,11 +1,8 @@
-on:push
+on: push
 jobs:
   job1:
-   runs-on:ubntu-lastest
+   runs-on:ubuntu-lastest
       steps:
-     -run:pwd
-     -run:ls
-  job2:
-    runs=on:windows-laster
-     steps:
-     -run:node --version   
+       -run:pwd
+       -run:ls
+  
