@@ -1,0 +1,13 @@
+name:pack
+on:push
+permissions:
+  contents:write
+jobs:
+  npm-build:
+    name:display
+    runs-on:ubuntu-latest
+    steps：
+    - name:xxxxx
+      run:|
+       ls
+       pwd  
