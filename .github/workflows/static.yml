@@ -1,8 +1,0 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: ABCD
-on:workflow_dispatch
-
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        run:echo "heelo"  
