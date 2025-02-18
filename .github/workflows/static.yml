@@ -1,16 +1,2 @@
-
-name: static 
-
-on:workflow_dispatch
-
-
-
-jobs:
-  # Single deploy job since we're just deploying
-
-    runs-on: ubuntu-latest
-    steps:
-      - name:AAA
-        run:|
-          echo "hello"
-          date
+helloword:
+  script: -echo 'hello'
